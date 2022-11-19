@@ -1,0 +1,3 @@
+system.setproperty("webdriver.chrome.driver", "D:\Selenium\ChromeDriver\chromedriver.exe");
+webdriver driver=new chromedriver();
+driver.get("https://www.google.com");
