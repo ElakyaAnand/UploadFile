@@ -4,3 +4,6 @@ driver.get("https://www.google.com");
 
 webelement username=driver.findelement(by.xpath("input(@name="username"));
 username.sendkeys("Admin");
+
+webelement username=driver.findelement(by.xpath("input(@type="password"));
+username.sendkeys("Admin123");
