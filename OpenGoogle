@@ -1,3 +1,6 @@
 system.setproperty("webdriver.chrome.driver", "D:\Selenium\ChromeDriver\chromedriver.exe");
 webdriver driver=new chromedriver();
 driver.get("https://www.google.com");
+
+webelement username=driver.findelement(by.xpath("input(@name="username"));
+username.sendkeys("Admin");
