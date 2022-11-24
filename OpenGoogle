@@ -12,4 +12,5 @@ webelement loginbutton=driver.findelement(by.xpath("input(@type="submit"));
 loginbutton.click();
 
 system.out.println("Checking for the Github jenkins push run");
+system.out.println("Checking for the Github jenkins push run");
 
